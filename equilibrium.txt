@@ -1,0 +1,9 @@
+ Addition of CH4(g) causes a decrease in O2(g).
+ Addition of CH4(g) causes an increase in CO2(g), H2O(l).
+ Addition of  O2(g) causes a decrease in CH4(g),.
+ Addition of  O2(g) causes an increase in CO2(g), H2O(l).
+ Addition of  CO2(g) causes a decrease in H2O(l).
+Addition of CO2(g)  causes an increase in CH4(g), O2(g).
+ Addition of H2O(l) causes no change in equilibrium.
+ Increasing temperature causes an increase in CH4(g), O2(g).
+

@@ -7,7 +7,7 @@
    import java.io.*;
    public class ReaculatorPanel extends JPanel
    {
-      private JLabel label, label1, label2, label3, label4, label5, label6, label7, label8, label9;   	 
+      private JLabel label, label1, label2, label3, label4, label5, label6, label7, label8, label9; 		 
       private JTextField box, box1, box2, box3, box4, box5, box6;    
       private static final double Rjoules = 8.3145;
       private static final double Ratmos = 0.0821;
@@ -46,17 +46,17 @@
          label9.setForeground(Color.red);
          add(label9);
            	
-         label = new JLabel("Delta H째rxn");
+         label = new JLabel("Delta H컍xn");
          label.setFont(new Font("Sans_Serif", Font.BOLD , 30));
          label.setForeground(Color.black);
          add(label);
          
-         label1 = new JLabel("Delta S째rxn");
+         label1 = new JLabel("Delta S컍xn");
          label1.setFont(new Font("Sans_Serif", Font.BOLD , 30));
          label1.setForeground(Color.black);
          add(label1);
          
-         label2 = new JLabel("Delta G째rxn");
+         label2 = new JLabel("Delta G컍xn");
          label2.setFont(new Font("Sans_Serif", Font.BOLD , 30));
          label2.setForeground(Color.black);
          add(label2);
@@ -105,10 +105,10 @@
                   System.out.println("WTF"); 
                   System.exit(0);
                }  
-            label.setText("Delta H째rxn: " + h + " kJ/mol");    
-            label1.setText("Delta S째rxn: " + ss + " J/mol*K");
+            label.setText("Delta H컍xn: " + h + " kJ/mol");    
+            label1.setText("Delta S컍xn: " + ss + " J/mol*K");
             double g = GHTS(h, (double)(Integer.parseInt(box2.getText())) , ss);
-            label2.setText("Delta G째rxn: " + g + " kJ/mol"); 
+            label2.setText("Delta G컍xn: " + g + " kJ/mol"); 
             double k = 0.0;
             k =  GnRTlnK(g, (double)Integer.parseInt(box2.getText()));
             label4.setText("Keq at 298 Kelvin: " + k + "");
